@@ -7,11 +7,7 @@ package com.hlxllo.decorator;
  */
 public abstract class Garnish extends FastFood{
 
-    private FastFood fastFood;
-
-    public void setFastFood(FastFood fastFood) {
-        this.fastFood = fastFood;
-    }
+    private final FastFood fastFood;
 
     public FastFood getFastFood() {
         return fastFood;

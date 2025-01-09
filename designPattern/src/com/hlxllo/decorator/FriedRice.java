@@ -12,7 +12,7 @@ public class FriedRice extends FastFood{
     }
 
     @Override
-    public float cost() {
-        return getPrice();
+    public float getPrice() {
+        return super.getPrice();
     }
 }

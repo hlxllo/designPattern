@@ -10,8 +10,6 @@ public abstract class FastFood {
     private float price;
     // 描述
     private String desc;
-    // 获取价格
-    public abstract float cost();
 
     public FastFood() {
     }

@@ -13,8 +13,8 @@ public class Egg extends Garnish{
 
     // 计算价格
     @Override
-    public float cost() {
-        return getPrice() + getFastFood().cost();
+    public float getPrice() {
+        return super.getPrice() + getFastFood().getPrice();
     }
 
     @Override
